@@ -123,7 +123,7 @@ export const SKILLS_DATA = [
     progress: 65,
     desc: "ML Models for COVID-19 Prediction",
     iconName: "PieChart", // Hum string bhejenge taake mapping asaan ho
-    color: "from-[#C084FC]/40 to-[#D8B4FE]/40 dark:from-[#C084FC]/20 dark:to-[#D8B4FE]/10",
+   color: "from-lilac/40 to-lilac-dark/40 dark:from-lilac-dark/20 dark:to-lilac-light/10",
     glow: "group-hover:shadow-purple-500/40"
   },
   {
@@ -131,15 +131,14 @@ export const SKILLS_DATA = [
     progress: 45,
 desc: "High-Performance Native Android Apps",
     iconName: "Smartphone",
-   color: "from-[#C084FC]/40 to-[#D8B4FE]/40 dark:from-[#C084FC]/20 dark:to-[#D8B4FE]/10",
-    glow: "group-hover:shadow-green-500/40"
-  },
+// Is tarah likhein:
+color: "from-lilac/40 to-lilac-dark/40 dark:from-lilac-dark/20 dark:to-lilac-light/10", },
   {
     title: "Web Development",
     progress: 85,
  desc: "Responsive Web Apps with React & Modern UI",
     iconName: "Layout",
-color: "from-[#C084FC]/40 to-[#D8B4FE]/40 dark:from-[#C084FC]/20 dark:to-[#D8B4FE]/10",
+color: "from-lilac/40 to-lilac-dark/40 dark:from-lilac-dark/20 dark:to-lilac-light/10",
     glow: "group-hover:shadow-blue-500/40"
   }
 ];
