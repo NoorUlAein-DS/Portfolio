@@ -131,7 +131,7 @@ const Home: React.FC = () => {
           {/* Title with Lilac Gradient */}
           <h1 className="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-extrabold mb-6 leading-tight dark:text-white text-gray-800">
             Hi, I'm a <br/>
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#C084FC] to-[#E9D5FF] inline-block">
+            <span className="text-[#C084FC] ">
               Data Science Student
             </span>
           </h1>

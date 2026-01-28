@@ -123,15 +123,15 @@ export const SKILLS_DATA = [
     progress: 65,
     desc: "ML Models for COVID-19 Prediction",
     iconName: "PieChart", // Hum string bhejenge taake mapping asaan ho
-    color: "from-purple-500/20 to-blue-500/20",
+    color: "from-[#C084FC]/40 to-[#D8B4FE]/40 dark:from-[#C084FC]/20 dark:to-[#D8B4FE]/10",
     glow: "group-hover:shadow-purple-500/40"
   },
   {
     title: "App Development",
     progress: 45,
-    desc: "Cross-platform React Native Apps",
+desc: "High-Performance Native Android Apps",
     iconName: "Smartphone",
-    color: "from-green-500/20 to-teal-500/20",
+   color: "from-[#C084FC]/40 to-[#D8B4FE]/40 dark:from-[#C084FC]/20 dark:to-[#D8B4FE]/10",
     glow: "group-hover:shadow-green-500/40"
   },
   {
@@ -139,7 +139,7 @@ export const SKILLS_DATA = [
     progress: 85,
     desc: "Full-stack React & Node.js",
     iconName: "Layout",
-    color: "from-blue-500/20 to-cyan-500/20",
+color: "from-[#C084FC]/40 to-[#D8B4FE]/40 dark:from-[#C084FC]/20 dark:to-[#D8B4FE]/10",
     glow: "group-hover:shadow-blue-500/40"
   }
 ];
