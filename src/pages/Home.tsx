@@ -22,7 +22,7 @@ const Home: React.FC = () => {
             <span className="text-xs font-bold uppercase tracking-widest dark:text-white text-teal-700">Noor Ul Aein Salamat Khan</span>
           </div>
           <h1 className="text-4xl md:text-5xl xl:text-7xl font-extrabold mb-6 leading-tight dark:text-white text-teal-500">
-            Hi, I'm a <br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-[#a87ebd] via-[#D8BFD8] to-[#C8A2C8]">
+            Hi, I'm a <br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-[#E9D5FF] via-[#D8B4FE] to-[#A855F7]">
   Data Science Student
 </span>
           </h1>
