@@ -122,7 +122,7 @@ const SkillCards = () => {
   return (
     <div className="w-full max-w-7xl mx-auto px-4 py-8">
       {/* Grid: Desktop (lg) par 3, Tablet (md) par 2, Mobile par 1 column */}
-     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-8 w-full">
+     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
         {SKILLS_DATA.map((skill, index) => (
           <motion.div
             key={index}

@@ -137,7 +137,7 @@ desc: "High-Performance Native Android Apps",
   {
     title: "Web Development",
     progress: 85,
-    desc: "Full-stack React & Node.js",
+ desc: "Responsive Web Apps with React & Modern UI",
     iconName: "Layout",
 color: "from-[#C084FC]/40 to-[#D8B4FE]/40 dark:from-[#C084FC]/20 dark:to-[#D8B4FE]/10",
     glow: "group-hover:shadow-blue-500/40"
