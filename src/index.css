@@ -69,3 +69,47 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+/* Mobile Responsive Fixes */
+@media screen and (max-width: 768px) {
+    /* Pure page ko center aur responsive banana */
+    body, #root {
+        overflow-x: hidden !important;
+    }
+
+    /* Items ko ek dusre ke niche (stack) karna */
+    .flex-row, .flex {
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 25px !important;
+    }
+
+    /* Hero Text Fix */
+    h1 {
+        font-size: 2rem !important;
+        text-align: center !important;
+        line-height: 1.3 !important;
+    }
+
+    /* Aapka Lilac Gradient Fix for Mobile */
+    .lilac-text {
+        background: linear-gradient(to right, #C084FC, #E9D5FF) !important;
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+        display: inline-block !important;
+    }
+
+    /* Cards ka size sahi karna */
+    div[class*="bg-opacity"], .card {
+        width: 90% !important;
+        max-width: 350px !important;
+        margin: 10px auto !important;
+    }
+
+    /* Text wrap karna taaki "Data Science" bahar na nikle */
+    h3, p {
+        word-break: break-word !important;
+        white-space: normal !important;
+        text-align: center !important;
+    }
+}
