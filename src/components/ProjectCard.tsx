@@ -55,7 +55,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         <div className="text-xs font-bold text-[#d4a5e0] uppercase tracking-widest mb-2">
           {project.category}
         </div>
-        <h3 className="text-xl font-bold mb-3 dark:text-white text-gray-900">{project.title}</h3>
+        <h3 className="text-xl font-bold mb-3 dark:text-white text-gray-500">{project.title}</h3>
         <p className="text-sm dark:text-gray-400 text-gray-600 mb-4 line-clamp-2">
           {project.description}
         </p>

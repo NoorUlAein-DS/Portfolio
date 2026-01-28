@@ -31,7 +31,7 @@ const Home: React.FC = () => {
             <Link to="/projects" className="px-8 py-4 bg-[#d4a5e0] hover:brightness-110 text-white rounded-2xl font-bold transition-all hover:scale-105 shadow-xl shadow-[#d4a5e0]/20 flex items-center gap-2">
               View My Work <ArrowRight size={20} />
             </Link>
-            <Link to="/contact" className="px-8 py-4 glass dark:text-white text-gray-900 rounded-2xl font-bold transition-all hover:bg-white/10 border border-white/20">
+            <Link to="/contact" className="px-8 py-4 glass dark:text-white text-gray-500 rounded-2xl font-bold transition-all hover:bg-white/10 border border-white/20">
               Get In Touch
             </Link>
           </div>
@@ -64,12 +64,12 @@ const Home: React.FC = () => {
         </motion.div>
       </div>
 <div className="w-full max-w-7xl mb-24 pt-1">
-        <h2 className="text-3xl font-bold mb-10 dark:text-white text-gray-900 text-center">My Skill Progress</h2>
+        <h2 className="text-3xl font-bold mb-10 dark:text-white text-gray-500 text-center">My Skill Progress</h2>
         <SkillCards /> 
       </div>
       {/* Quick Actions */}
       <div className="w-full max-w-6xl mt-24">
-        <h2 className="text-3xl font-bold mb-10 dark:text-white text-gray-900 text-center lg:text-left">What I Build</h2>
+        <h2 className="text-3xl font-bold mb-10 dark:text-white text-gray-500 text-center lg:text-left">What I Build</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {QUICK_ACTIONS.map((action, idx) => (
             <motion.div
@@ -84,8 +84,8 @@ const Home: React.FC = () => {
               <div className={`${action.color === 'bg-purple-500' ? 'bg-[#d4a5e0]' : action.color} p-5 rounded-2xl text-white mb-6 group-hover:scale-110 group-hover:rotate-6 transition-all`}>
                 {action.icon}
               </div>
-              <h3 className="font-bold text-xl dark:text-white text-gray-900 mb-2">{action.title}</h3>
-<p className="text-sm dark:text-gray-400 text-gray-600">
+              <h3 className="font-bold text-xl dark:text-white text-gray-500 mb-2">{action.title}</h3>
+<p className="text-sm dark:text-gray-400 text-gray-500">
   {action.description} 
 </p>
 

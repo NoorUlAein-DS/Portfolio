@@ -13,7 +13,7 @@ const About: React.FC = () => {
           <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-6xl font-bold mb-6 dark:text-white text-gray-900"
+            className="text-4xl md:text-6xl font-bold mb-6 dark:text-white text-gray-500"
           >
             A Journey of <span className="text-[#d4a5e0]">Disciplined Growth</span>
           </motion.h1>
@@ -63,7 +63,7 @@ const About: React.FC = () => {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            <h2 className="text-3xl font-bold dark:text-white text-gray-900">My Journey</h2>
+            <h2 className="text-3xl font-bold dark:text-white text-gray-500">My Journey</h2>
             <p className="dark:text-gray-400 text-gray-600 leading-relaxed">
 My journey into technology began with a major turning point in 2023. Originally a Pre-Medical student, I transitioned into the tech landscape by enrolling in a rigorous one-year programming foundation course. This experience reshaped my perspective, revealing that the precision required in medicine perfectly complements the logic of software development.            </p>
             <p className="dark:text-gray-400 text-gray-600 leading-relaxed">

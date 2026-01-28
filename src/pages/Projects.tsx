@@ -18,7 +18,7 @@ const Projects: React.FC = () => {
     <div className="min-h-[calc(100vh-80px)] px-6 py-20">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 dark:text-white text-gray-900">Featured Work</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 dark:text-white text-gray-500">Featured Work</h1>
           <p className="text-lg dark:text-gray-400 text-gray-600 max-w-xl mx-auto">
             A curated selection of projects demonstrating technical depth and practical application.
           </p>

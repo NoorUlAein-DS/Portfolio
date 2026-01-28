@@ -39,7 +39,7 @@ const [userName, setUserName] = React.useState("");
             className="space-y-8"
           >
             <div>
-              <h1 className="text-4xl font-bold mb-4 dark:text-white text-gray-900">Let's Connect</h1>
+              <h1 className="text-4xl font-bold mb-4 dark:text-white text-gray-500">Let's Connect</h1>
               <p className="dark:text-gray-400 text-gray-600">Have a question or want to work together? Drop me a message.</p>
             </div>
 
@@ -79,7 +79,7 @@ const [userName, setUserName] = React.useState("");
       <CheckCircle size={40} className="text-white animate-bounce" />
     </div>
     
-    <h3 className="text-3xl font-extrabold text-gray-900 dark:text-white mb-2">
+    <h3 className="text-3xl font-extrabold text-gray-500 dark:text-white mb-2">
       Thank You, {userName}!
     </h3>
     <p className="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
@@ -88,7 +88,7 @@ const [userName, setUserName] = React.useState("");
     
     <button 
       onClick={() => setIsSent(false)}
-      className="px-8 py-3 glass dark:text-white text-gray-900 rounded-xl font-bold border border-white/20 hover:bg-white/5 transition-all"
+      className="px-8 py-3 glass dark:text-white text-gray-500 rounded-xl font-bold border border-white/20 hover:bg-white/5 transition-all"
     >
       Send Another Message
     </button>

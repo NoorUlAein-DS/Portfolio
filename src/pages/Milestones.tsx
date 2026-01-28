@@ -120,7 +120,7 @@ const CERTIFICATES: CertificateItem[] = [
     id: 5,
     title: 'Python for Data Science, AI & Development',
     issuer: 'IBM / Coursera',
-    date: 'Dec 2025',
+    date: 'Oct 2025',
     image: '/CERfive.png' // Based on your uploaded filename
   }
 
@@ -154,7 +154,7 @@ const Milestones: React.FC = () => {
 
         {/* Section 1: The Timeline */}
         <div className="relative">
-          <h2 className="text-2xl font-bold mb-16 text-center dark:text-white text-gray-900 uppercase tracking-[0.3em]">
+          <h2 className="text-2xl font-bold mb-16 text-center dark:text-white text-gray-500 uppercase tracking-[0.3em]">
             Technical <span className="text-[#d4a5e0]">Timeline</span>
           </h2>
           
@@ -188,7 +188,7 @@ const Milestones: React.FC = () => {
                         {milestone.date}
                       </span>
                     </div>
-                    <h3 className="text-xl font-bold dark:text-white text-gray-900 group-hover:text-[#d4a5e0] transition-colors mb-3">
+                    <h3 className="text-xl font-bold dark:text-white text-gray-500 group-hover:text-[#d4a5e0] transition-colors mb-3">
                       {milestone.title}
                     </h3>
                     <p className="text-sm dark:text-gray-400 text-gray-600 leading-relaxed">
@@ -202,7 +202,7 @@ const Milestones: React.FC = () => {
         </div>
 {/* Section 2: Professional Resume Card */}
 <div className="flex flex-col items-center">
-  <h2 className="text-2xl font-bold mb-12 text-center dark:text-white text-gray-900 uppercase tracking-[0.3em]">
+  <h2 className="text-2xl font-bold mb-12 text-center dark:text-white text-gray-500 uppercase tracking-[0.3em]">
     Professional <span className="text-[#d4a5e0]">Credentials</span>
   </h2>
   
@@ -221,7 +221,7 @@ const Milestones: React.FC = () => {
         </div>
         
         <div className="space-y-4">
-          <h3 className="text-3xl md:text-4xl font-extrabold dark:text-white text-gray-900">
+          <h3 className="text-3xl md:text-4xl font-extrabold dark:text-white text-gray-500">
             Professional Resume
           </h3>
           <p className="text-base md:text-lg dark:text-gray-400 text-gray-600 leading-relaxed max-w-lg font-medium">
@@ -248,7 +248,7 @@ const Milestones: React.FC = () => {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}
-            className="flex items-center justify-center gap-3 px-8 py-5 glass dark:text-white text-gray-900 rounded-2xl font-bold border border-white/20 hover:bg-white/10 dark:hover:bg-white/5 transition-all text-base no-underline cursor-pointer"
+            className="flex items-center justify-center gap-3 px-8 py-5 glass dark:text-white text-gray-500 rounded-2xl font-bold border border-white/20 hover:bg-white/10 dark:hover:bg-white/5 transition-all text-base no-underline cursor-pointer"
           >
             <Eye size={20} />
             View Fullscreen
@@ -292,7 +292,7 @@ const Milestones: React.FC = () => {
                   
                   <div className="flex justify-between items-start">
                     <div>
-                      <h4 className="font-bold dark:text-white text-gray-900 text-lg group-hover:text-[#d4a5e0] transition-colors">
+                      <h4 className="font-bold dark:text-white text-gray-500 text-lg group-hover:text-[#d4a5e0] transition-colors">
                         {cert.title}
                       </h4>
                       <p className="text-sm dark:text-gray-500 text-gray-400 font-medium">{cert.issuer}</p>
