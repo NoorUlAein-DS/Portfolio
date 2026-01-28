@@ -139,7 +139,7 @@ const Milestones: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-7xl font-extrabold mb-8 dark:text-white text-gray-900"
+            className="text-4xl md:text-7xl font-extrabold mb-8 dark:text-white text-gray-500"
           >
             Journey <span className="text-[#d4a5e0]">&</span> <span className="text-teal-500">Milestones</span>
           </MotionH1>

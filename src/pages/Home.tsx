@@ -21,8 +21,10 @@ const Home: React.FC = () => {
             <Terminal size={16} className="text-[#d4a5e0]" />
             <span className="text-xs font-bold uppercase tracking-widest dark:text-white text-teal-700">Noor Ul Aein Salamat Khan</span>
           </div>
-          <h1 className="text-4xl md:text-5xl xl:text-7xl font-extrabold mb-6 leading-tight dark:text-white text-teal-200">
-            Hi, I'm a <br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4a5e0] via-[#c084fc] to-[#2dd4bf]">Data Science Student</span>
+          <h1 className="text-4xl md:text-5xl xl:text-7xl font-extrabold mb-6 leading-tight dark:text-white text-teal-500">
+            Hi, I'm a <br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-[#a87ebd] via-[#D8BFD8] to-[#C8A2C8]">
+  Data Science Student
+</span>
           </h1>
           <p className="text-lg md:text-xl dark:text-gray-400 text-gray-600 mb-10 max-w-lg leading-relaxed font-medium">
             Crafting data-driven solutions and building elegant digital experiences through a lens of extreme focus and technical rigor.
